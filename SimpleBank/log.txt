@@ -1,1 +1,6 @@
-Fecha:Thu Oct 21 13:00:41 ECT 2021,Tipo de transacción:moneyMakeTransaction
+Fecha:Thu Oct 21 13:08:49 ECT 2021,Tipo de transacción:moneyWithdrawal
+Fecha:Thu Oct 21 13:11:39 ECT 2021,Tipo de transacción:moneyMakeTransaction
+Fecha:Thu Oct 21 13:11:39 ECT 2021,Tipo de transacción:moneyWithdrawal
+Fecha:Thu Oct 21 13:13:08 ECT 2021,Tipo de transacción:moneyMakeTransaction
+Fecha:Thu Oct 21 13:18:00 ECT 2021,Tipo de transacción:moneyMakeTransaction
+Fecha:Thu Oct 21 13:18:00 ECT 2021,Tipo de transacción:moneyWithdrawal

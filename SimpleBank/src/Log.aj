@@ -14,10 +14,9 @@ public aspect Log {
     pointcut success() : call(* money*(..) );
     after() : success() {
     	Signature sig= thisJoinPoint.getSignature();
-    	try(FileWriter fw= new FileWriter(file);
+    	try(FileWriter fw= new FileWriter(file,true);
     		BufferedWriter bw= new BufferedWriter(fw)){
-    		System.out.print("Fecha:"+cal+","+"Tipo de transacción:"+sig.getName());
-    		bw.write("Fecha:"+cal.getTime()+","+"Tipo de transacción:"+sig.getName());
+    		bw.write("Fecha:"+cal.getTime()+","+"Tipo de transacción:"+sig.getName()+"\n");
     		bw.close();
     	}catch(IOException e){
     		System.out.print("Error al escribir");	
